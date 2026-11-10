@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Jesoamaka Agugo’s technical implementation portfolio, with cloud telephony and digital health onboarding work.">
+<meta name="theme-color" content="#f2f5ef">
+<title>Jesoamaka Agugo | Technical Implementation</title>
+<link rel="icon" href="mark.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body id="top">
+<a class="skip" href="#main">Skip to content</a>
+<header class="top wrap">
+  <a class="brand" href="#top"><span class="mark" aria-hidden="true">JA</span> Jesoamaka Agugo</a>
+  <nav aria-label="Main navigation">
+    <a href="#work">Work</a>
+    <a href="#experience">Experience</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+<main id="main">
+  <section class="hero wrap" aria-labelledby="intro">
+    <div>
+      <p class="label"><span class="dot"></span> Technical implementation &amp; onboarding</p>
+      <h1 id="intro">From setup<br>to <em>go-live.</em></h1>
+      <p class="intro">I’m Jesoamaka Agugo. I configure business phone systems, troubleshoot technical issues, and guide customers through setup on digital health platforms.</p>
+      <div class="actions">
+        <a class="button primary" href="#work">Explore my work <span aria-hidden="true">↓</span></a>
+        <a class="button secondary" href="Jesoamaka_Agugo_Technical_Implementation_Resume.pdf" download>Download résumé <span aria-hidden="true">↓</span></a>
+      </div>
+    </div>
+    <figure class="schematic">
+      <div class="schematic-top"><span><i></i> VOICE SYSTEMS</span><span>FIG 01</span></div>
+      <svg viewBox="0 0 410 246" role="img" aria-labelledby="voice-title voice-desc" xmlns="http://www.w3.org/2000/svg">
+        <title id="voice-title">Sample inbound call flow</title>
+        <desc id="voice-desc">An incoming call reaches a SIP trunk and then an IP PBX, which routes it to a ring group or voicemail.</desc>
+        <defs><pattern id="grid" width="18" height="18" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#376158"/></pattern></defs>
+        <rect width="410" height="246" rx="12" fill="url(#grid)"/>
+        <g fill="none" stroke="#a3e6b3" stroke-width="1.5">
+          <path d="M204 53v21m0 41v21m0 39v17m0 0h-99v13m99-13h99v13"/>
+          <circle cx="204" cy="192" r="3" fill="#b8f4be"/>
+        </g>
+        <g fill="#183a35" stroke="#659787" stroke-width="1.2">
+          <rect x="134" y="15" width="140" height="38" rx="8"/>
+          <rect x="134" y="74" width="140" height="41" rx="8"/>
+          <rect x="134" y="136" width="140" height="39" rx="8" fill="#315c47" stroke="#b8f4be"/>
+          <rect x="40" y="205" width="130" height="36" rx="8"/>
+          <rect x="238" y="205" width="130" height="36" rx="8"/>
+        </g>
+        <g fill="#eff8ee" text-anchor="middle" font-family="system-ui,sans-serif" font-size="15" font-weight="550">
+          <text x="204" y="39">Incoming call</text><text x="204" y="100">SIP trunk</text>
+          <text x="204" y="161">IP PBX</text><text x="105" y="228">Ring group</text><text x="303" y="228">Voicemail</text>
+        </g>
+      </svg>
+      <figcaption>Illustrative inbound call flow</figcaption>
+    </figure>
+  </section>
+
+  <section class="impact" aria-label="Selected results">
+    <div class="wrap impact-grid">
+      <div><strong>24</strong><span>users affected by a setup issue I flagged before complaints</span></div>
+      <div><strong>16</strong><span>support recruits trained and assessed at iPrevail Health</span></div>
+      <div><strong>73</strong><span>customers I helped retain over eight months at iPrevail Health</span></div>
+    </div>
+  </section>
+
+  <section class="section wrap" id="work">
+    <p class="label"><span class="section-no">01</span> Selected work</p>
+    <h2>How I approach implementation</h2>
+    <div class="work-grid">
+      <article class="case">
+        <p class="tag">Work sample · Illustrative</p>
+        <h3>Office phone system cutover</h3>
+        <p>A sample rollout plan for a small business moving to a new IP phone system. It covers requirements, call-flow testing and a fallback if the change fails.</p>
+        <details>
+          <summary>Read the cutover plan</summary>
+          <ol>
+            <li><strong>Confirm requirements.</strong> List extensions, numbers, business hours and fallback contacts. Map the main number to the greeting, ring group and voicemail.</li>
+            <li><strong>Configure and test.</strong> Verify SIP registration, then test inbound and outbound calls, transfers, two-way audio, busy and no-answer handling, and after-hours routing.</li>
+            <li><strong>Prepare the change.</strong> Record the prior routing, agree on the go-live window and confirm who can restore the previous route if incoming calls fail.</li>
+            <li><strong>Hand over.</strong> Record pass or fail results, open issues and ownership. Give the customer a quick guide for transfers, voicemail and reporting problems.</li>
+          </ol>
+        </details>
+      </article>
+      <article class="case">
+        <p class="tag">Professional experience · NovaBuk</p>
+        <h3>Spotting a setup issue early</h3>
+        <p>While supporting onboarding for a digital health platform, I identified a setup issue affecting 24 users before complaints came in.</p>
+        <details>
+          <summary>Read how I handled it</summary>
+          <p>I documented who was affected and coordinated the escalation with the team responsible for the next step. I also tracked onboarding actions across commercial, operations, product and technical teams so outstanding work had a clear place to go.</p>
+        </details>
+      </article>
+      <article class="case">
+        <p class="tag">Work sample · Illustrative</p>
+        <h3>Isolating an outbound call failure</h3>
+        <p>A sample diagnostic sequence for an extension that receives calls but cannot dial out.</p>
+        <details>
+          <summary>Read the troubleshooting sequence</summary>
+          <ol>
+            <li><strong>Establish scope.</strong> Test a known-good extension with the same destination and dial format. Record the time, symptom and any SIP response.</li>
+            <li><strong>Check the route.</strong> Compare outbound permissions and dial rules. If multiple extensions fail, check trunk status and provider responses before changing extension settings.</li>
+            <li><strong>Verify and hand over.</strong> Retest the original scenario, confirm inbound calls still work and record the result. If the issue persists, hand over the test evidence and next owner.</li>
+          </ol>
+        </details>
+      </article>
+    </div>
+  </section>
+
+  <section class="section experience wrap" id="experience">
+    <div>
+      <p class="label"><span class="section-no">02</span> Experience</p>
+      <h2>Where I’ve done the work</h2>
+      <p>Business communications, digital health and customer operations.</p>
+    </div>
+    <div class="timeline">
+      <article><p class="tag">Cloud telephony · Australia, remote</p><h3>Complete ICT</h3><p class="role">LG iPECS Phone System Technician · Aug 2025–Aug 2026</p><p>Configured extensions, hunt groups, voicemail, automated attendants and call routing. Investigated SIP registration and call failures, maintained configuration notes and coordinated technical escalations.</p></article>
+      <article><p class="tag">Digital health · Imo State, remote</p><h3>NovaBuk</h3><p class="role">State Partner, Commercial Operations &amp; Onboarding · 2026</p><p>Guided customers and partners through setup and platform navigation. Maintained onboarding records and tracked outstanding actions across teams.</p></article>
+      <article><p class="tag">Digital health · Remote</p><h3>iPrevail Health</h3><p class="role">Client Operations &amp; Support Specialist · Jan 2022–Jul 2025</p><p>Troubleshot account access and single sign-on issues, documented defects for technical handover and trained new support recruits on platform workflows.</p></article>
+    </div>
+  </section>
+
+  <section class="toolstrip" aria-label="Tools and skills">
+    <div class="wrap skills"><span>LG iPECS</span><span>IP PBX</span><span>VoIP / SIP</span><span>Call routing</span><span>SSO troubleshooting</span><span>Zendesk</span><span>Jira</span><span>Salesforce</span><span>Onboarding documentation</span></div>
+  </section>
+
+  <section class="section contact wrap" id="contact">
+    <div>
+      <p class="label"><span class="section-no">03</span> Contact</p>
+      <h2>Let’s talk about your rollout.</h2>
+      <p>Open to international remote roles in technical implementation, provisioning and client onboarding.</p>
+    </div>
+    <div class="actions">
+      <a class="button primary" href="mailto:jesoamakaagugo2@gmail.com">Email Jesoamaka <span aria-hidden="true">↗</span></a>
+      <a class="button secondary" href="https://www.linkedin.com/in/jesoamaka-a-1015032aa">LinkedIn <span aria-hidden="true">↗</span></a>
+    </div>
+  </section>
+</main>
+<footer class="wrap footer"><span>© 2026 Jesoamaka Agugo</span><a href="#top">Back to top ↑</a></footer>
+</body>
+</html>
